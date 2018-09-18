@@ -1,0 +1,141 @@
+.nav-fixed ul {
+list-style-type: none;margin: 0;padding: 0;width: 100%;background-color: #000;
+position: ;height:auto;overflow: hidden;display: block;color: #fff;
+}
+.nav-fixed animated {animation-duration: 3s}
+.nav-fixed li{display: inline-block;}
+.nav-fixed li a {display: block;padding: 8px;text-decoration: none;}
+.nav-fixed .sdc-text{font-size: 2em}
+.nav-fixed{position: fixed;z-index: 2;width: 100%}
+.navbar{background-color:#000}
+.navbar .col-md-12 h2{color:#fff}
+.push_right{float: right;}
+.push_center{padding-left: 25%}
+@media (max-width:768px){
+  .push_right{float:none;}
+  .push_center{padding:0px;}
+}
+/* Add a black background color to the top navigation */
+.topnav {
+   background-color: #0d0d0d;
+   overflow: auto;
+   height:100%;
+   position: fixed;
+   z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   float: none;
+   display: block;
+   color: #fff;
+   text-align: left;
+   padding: 10px 16px;
+   text-decoration: none;
+   font-size: 15px;
+}
+.topnav a:last-child{}
+.topnav a i{padding-right:10px}
+.topnav img{display: block;}
+/* Change the color of links on hover */
+.topnav a:hover {
+   background-color: rgb(255,255,255,0.5);
+   color: black;
+}
+/* Add an active class to highlight the current page */
+.active {background-color:rgb(255,255,255,0.5);color: black;}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {display: none;}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+.topnav #tutorial-list{
+  list-style-type:none ;text-align: right;display: none;
+}
+.topnav #tutorial-list a{color: #fff;border-bottom:1px solid rgb(150,10,10,0.5);border-left:1px solid rgb(150,10,10,0.5)}
+.topnav #tutorial-list{padding-bottom: 25%}
+@media screen and (max-width: 800px){
+ .topnav a:not(:first-child) {display: none;}
+ .topnav img{display: none;}
+ .topnav form{display: none;}
+ .topnav a.icon {  display: block;}
+ .topnav{position: relative;padding-top:20%;}
+ .nav-fixed .sdc-text{font-size: 1em}
+}
+.dash-box{height:100%;padding-left:25%;overflow:auto;}/*background-color: rgb(10,20,30);*/
+.dash-inner{background-color: #fff;height:100%;position: relative;top:2%;padding:30px 30px}
+.dash-default{padding:20px 20px;box-shadow: -1px 2px 2px rgb(0,0,0);margin-left:5%;border-radius: 10px}
+.dash-default .msg-box{color:rgb(190,25,10);text-align: center;}
+.dash-default:hover{background:rgb(200,200,200,0.2);cursor: pointer;}
+.dash-default:hover{background:rgb(200,200,200,0.2);cursor: pointer;}
+.dash-default .col-md-12{transition: font-size 1s}
+.dash-default .col-md-12:hover{color: grey;font-size:15px}
+.dash-default .info-box{color:rgb(25,25,100);text-align: center;}
+.dash-default .alert-box{color:rgb(255,153,51);text-align: center;}
+.dash-default a{text-decoration: none;}
+.dash-intro h1{text-align: center;text-shadow: 2px 3px 2px #000;color:rgb(255,255,255)}
+.dash-intro h5{text-align: center;font-style: oblique;}
+.form-group .push_Up{padding-top:20px}
+#err-box{background-color: rgb(190,25,10);border-radius: 10px;color: white;box-shadow: -1px 2px 2px grey;margin-top: 5px}
+.dash-inner iframe{width:100%;height:500px;padding:0;overflow: auto;border: 0;}
+
+
+.chat-form textarea {
+    background: #fbfbfb;
+    width: 100%;
+    height: 80px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+#send {
+  color:#fff;background-color: rgb(0,77,230);
+border-radius: 50%;height:70px;
+}
+#send button{background: transparent;border:0;border-color: transparent}
+#send button:hover{cursor: pointer;}
+#send:hover{background-color: rgb(0,51,153);cursor: pointer;}
+.send-area{padding: 0px}
+.chat-form textarea:focus {
+    background: #fff;box-shadow: -2px 2px 2px rgb(0,51,153)
+}
+.chat-form textarea:not(:focus){
+  box-shadow: -2px 2px 2px rgb(0,0,0);
+}
+.chat-form textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-form textarea::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0,0,0,.1);
+
+}
+
+.chat-form button:hover {
+    background: #13c8d9;
+
+}
+.e-row{background-color: rgba(102,255,153,0.2);}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px){
+ .topnav.responsive {position: relative;}
+ .topnav.responsive a.icon {
+   position: relative;
+   right: 0;
+   top: 0;
+ }
+ .topnav.responsive a {
+   float: none;
+   display: block;
+   text-align: left;
+ }
+ .topnav.responsive form {display: block}
+ .topnav.responsive img{display: block;}
+ .e-dash-box{margin-left:0%}
+ .dash-box{padding-left:10px}
+}
+@media screen and (max-width:991px){
+  .e-dash-box{margin-left:0}
+}

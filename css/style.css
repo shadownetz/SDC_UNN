@@ -1,0 +1,107 @@
+#sdc-name-full{text-align:center;color:#FFFFFF;background-color: #000;padding-top: 3%}
+#sdc-name-full h1{font-size:3em;font-family: cursive}
+#sdc-name-full .fadeIn{animation-delay: 1s;animation-duration: 2s}
+#sdc-name-full .fadeInUp{animation-duration: 1s}
+#sdc-name-full code{background-color: transparent;color: #fff}
+.navbar-collapse ul{background-color: black}
+.slide-html{background-color: rgb(255,255,255);background-color:rgba(255,255,255,.9);float: right;border-radius: 5%; }
+.slide-content  .animated {animation-duration: 2s}
+.slide-html:hover{box-shadow: 0px 8px 57px -10px rgb(255,255,255);-webkit-box-shadow: 0px 8px 57px -10px rgb(255,255,255);}
+.navbar-brand #time{color: #fff;font-size: 0.5em}
+.regform-img{background-color:rgb(0,0,0);background-color: rgba(0,0,0,0.58);height:auto}
+.regform-img .animated{animation-duration: 3s}
+.new-form{color: rgb(255,255,255);margin-top:10%;}
+#defaultImg{padding-top:10px;border-radius: 50%}
+.form-content{padding:10px 0px}
+.form-content code{background:transparent;color: #fff}
+#user{display: none}
+.sdc-part-login{height:100%;padding-top:10%;}
+.sdc-login{height:auto;margin-top:15%;background-color:rgb(0,0,0);background-color: rgba(0,0,0,0.7);border-radius: 10px}
+.re label strong a{color:rgb(200,10,10)}
+.re label strong a:hover{color: rgb(10,10,100)}
+#login-body{background-image: url("../images/login.png");background-repeat:no-repeat;background-size:100%;background-position:center;}
+.div-center{text-align:center!important}
+#form-body{background-image: url("../images/formBody.jpg"); background-repeat:no-repeat;background-size:100%}
+footer{bottom:0;}
+.sdc-foot{background-color:rgb(10,20,30);height:auto;color:beige;font-size:1em;font-family:calibri;letter-spacing: 2px;padding:5px 0px 0px 20px;bottom: 0}
+.foot-content1{padding:20px 0px 0px 30px;}
+.foot-content{padding:20px 0px 0px 0px;text-align: center}
+.foot-content3{border-top:1px solid rgb(255,255,255,0.132);padding-top: 7px;font-family: sans-serif}
+svg{display: block;width:15%;margin: 0 auto;}
+.about-icn{background-color:rgb(200,200,200);margin-bottom: 5px;padding-top:1em }
+#sdcHeader-logo .row{height:0vh;position: relative;display: block;padding-top:60px;z-index:2;padding-bottom: 83px;width:100% }
+#sdcHeader-logo .animated{animation-duration: 2s}
+#sdcHeader-logo{background-color: black;padding:0;width:100%}
+@media screen and (max-width:768px),(max-width:991px){
+.foot-content1{padding:20px 0px 0px 0px;}
+svg{width:30%;}
+#form-body{background:#fff;}
+.regform-img{
+background-color:rgb(200,200,200);
+  background-color:rgba(255,255,255,0.58);height:auto;
+  box-shadow:-1px -2px 3px black;border-radius: 20px;
+  moz-box-shadow:-1px -2px 3px black;
+  width:80%;margin-left:10%;padding:10px;
+}
+#login-body{background:rgb(20,20,20);}
+.form-content{color:rgb(100,100,100)}
+#sdc-name-full h1{font-size:2em;padding-top:8%}
+.sdc-part-login span img{width:80%}
+.sdc-part-login{padding-top:15%}
+.sdc-login{width:80%;padding:20px;margin-left:10%}
+.navbar-header .navbar-brand{font-size: 1.5em}
+}
+.clearfix{padding:20px}
+.media img{width:50%;}
+.side-fixed{position: fixed;width:500px}
+.abt1{
+  background-image: url("../images/dubesoft.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt2{
+  background-image: url("../images/man3.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt3{
+  background-image: url("../images/paschal.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt4{
+  background-image: url("../images/shadowalker.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt5{
+  background-image: url("../images/founder-img.png");
+  background-size: 100%;
+  background-position: center;
+}
+.abt6{
+  background-image: url("../images/man3.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt7{
+  background-image: url("../images/man3.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt8{
+  background-image: url("../images/efficiency.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt9{
+  background-image: url("../images/blessed.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.abt10{
+  background-image: url("../images/godspower.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+#err-box{background-color: rgb(200,25,10);border-radius: 10px;color:#fff;box-shadow: -1px 2px 2px grey;margin-bottom:20px;width:50%}
